@@ -1,0 +1,125 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration build-checksum="3385061450" file="F:\快盘\我的资料\脑电心电锋电位一体机\材料\液晶屏3.5\3.5寸液晶ILI9481驱动（STM32）.一体机\3.5寸液晶ILI9481驱动（STM32）\Matlab\Combo函数集\A300s.prj" location="F:\快盘\我的资料\脑电心电锋电位一体机\材料\液晶屏3.5\3.5寸液晶ILI9481驱动（STM32）.一体机\3.5寸液晶ILI9481驱动（STM32）\Matlab\Combo函数集" name="A300s" preferred-package-location="F:\快盘\我的资料\脑电心电锋电位一体机\材料\液晶屏3.5\3.5寸液晶ILI9481驱动（STM32）.一体机\3.5寸液晶ILI9481驱动（STM32）\Matlab\Combo函数集\A300s\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="MATLAB Compiler for Standalone Applications">
+    <param.appname>A300s</param.appname>
+    <param.icon />
+    <param.icons />
+    <param.version>1.0</param.version>
+    <param.authnamewatermark>Bluesky</param.authnamewatermark>
+    <param.email />
+    <param.company>Paradise</param.company>
+    <param.summary />
+    <param.description>Recording EEG data for 300 seconds.</param.description>
+    <param.screenshot />
+    <param.guid />
+    <param.installpath.string>\Paradise\A300s\</param.installpath.string>
+    <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
+    <param.logo />
+    <param.install.notes />
+    <param.intermediate>${PROJECT_ROOT}\A300s\for_testing</param.intermediate>
+    <param.output>${PROJECT_ROOT}\A300s\for_redistribution</param.output>
+    <param.user.defined.mcr.options />
+    <param.embed.ctf>true</param.embed.ctf>
+    <param.server.ctf>${PROJECT_ROOT}\A300s\for_testing\.ctf</param.server.ctf>
+    <param.server.readme>${PROJECT_ROOT}\A300s\for_testing\readme.txt</param.server.readme>
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages />
+    <param.web.mcr>false</param.web.mcr>
+    <param.package.mcr>true</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>true</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.version />
+      <param.email />
+      <param.summary />
+      <param.screenshot />
+      <param.guid />
+      <param.installpath.string />
+      <param.installpath.combo />
+      <param.logo />
+      <param.install.notes />
+      <param.intermediate />
+      <param.output />
+      <param.user.defined.mcr.options />
+      <param.embed.ctf />
+      <param.server.ctf />
+      <param.server.readme />
+      <param.target.type />
+      <param.support.packages />
+      <param.no.mcr />
+      <param.web.mcr.name />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.create.log />
+      <param.log.file />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\A300s.m</file>
+    </fileset.main>
+    <fileset.resources>
+      <file>${PROJECT_ROOT}\ComboClose.mexw64</file>
+      <file>${PROJECT_ROOT}\ComboGetData.mexw64</file>
+      <file>${PROJECT_ROOT}\ComboGetLength.mexw64</file>
+      <file>${PROJECT_ROOT}\ComboOpen.mexw64</file>
+      <file>${PROJECT_ROOT}\ComboQuery.mexw64</file>
+    </fileset.resources>
+    <fileset.package />
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\A300s\for_testing" name="splash.png" optional="false">F:\快盘\我的资料\脑电心电锋电位一体机\材料\液晶屏3.5\3.5寸液晶ILI9481驱动（STM32）.一体机\3.5寸液晶ILI9481驱动（STM32）\Matlab\Combo函数集\A300s\for_testing\splash.png</file>
+      <file location="${PROJECT_ROOT}\A300s\for_testing" name="A300s.exe" optional="false">F:\快盘\我的资料\脑电心电锋电位一体机\材料\液晶屏3.5\3.5寸液晶ILI9481驱动（STM32）.一体机\3.5寸液晶ILI9481驱动（STM32）\Matlab\Combo函数集\A300s\for_testing\A300s.exe</file>
+      <file location="${PROJECT_ROOT}\A300s\for_testing" name="readme.txt" optional="true">F:\快盘\我的资料\脑电心电锋电位一体机\材料\液晶屏3.5\3.5寸液晶ILI9481驱动（STM32）.一体机\3.5寸液晶ILI9481驱动（STM32）\Matlab\Combo函数集\A300s\for_testing\readme.txt</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>G:\Program Files\MATLAB\R2014a</root>
+      <toolboxes>
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="matlabcoder" />
+      </toolboxes>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>6.1</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
